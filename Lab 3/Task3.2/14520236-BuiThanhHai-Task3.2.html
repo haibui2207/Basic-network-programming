@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>14520236-BuiThanhHai-Task3.2</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">  
+    <link href="../css/datepicker.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="lab3.2.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <!--*********************Page 1*************************-->
+        <div class="main-page1">
+          <div class="main-page1-header">
+            <div class="main-page1-header-content">
+              <h1 id="main-page1-header-content-welcom">Hello !</h1>
+            </div>           
+          </div><!--/main-page1-header-->
+          <div class="main-page1-info">   
+            <div class="main-page1-info-title">
+              <h1>What's your name?</h1>
+            </div>
+            <div class="main-page1-info-ans">
+              <input type="text" class="form-control" placeholder="Thanh Hải" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group main-page1-info-date">
+              <input id="datepicker" type="text" class="form-control" placeholder="DD/MM/YYYY">
+              <div class="input-group-addon" id="icon">
+                <span class="glyphicon glyphicon-th"></span>
+              </div>             
+            </div>
+            <div class="main-page1-info-btn">
+               <input id="btnOK" type="button" class="btn btn-primary" value="OK">
+            </div>
+          </div><!--/main-page1-info-->
+        </div><!--/main-page1-->
+        <!--*********************/Page 1************************-->
+        <!--*********************Page 2*************************-->
+        <div class="main-page2">
+          <div class="main-page2-empty"></div><!--/main-page2-empty-->
+          <div class="main-page2-time">
+            <div id="CDT"></div>            
+          </div><!--/main-page2-time-->
+          <div class="main-page2-content">
+              <p id="title">Chào buổi <span id="buoi"></span> , <span id="name">Thanh Hải</span></p>
+              <p>Bạn đã sống được <span id="yearolds">20</span> năm</p>
+              <p>Còn <span id="day-rest">65</span> ngày nữa là tới sinh nhật tiếp theo của bạn</p>
+          </div><!--/main-page2-content-->
+        </div><!--/main-page2-->
+        <!--*********************/Page 2************************-->
+      </div><!--/main-->
+    </div><!--/container-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap-datepicker.js"></script>
+    <script src="lab3.2.js"></script>
+  </body>
+</html>

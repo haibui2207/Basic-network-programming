@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>14520236_BuiThanhHai_Task1</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="14520236_Task1.css">
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1>Task 1</h1>
+		</div>
+		<ol>
+			<!--Đây là câu a-->
+			<div id="cauA" class="question">
+				<div class="ques">
+					<li><h4>So sánh file HTML có dạng .html và .htm . Nếu không có các thẻ &lthtml&gt,&lthead&gt và &ltbody&gt thì có ảnh hưởng gì trong file HTML không? </h4></li>
+				</div>
+				<div class="ans">
+					<ul>
+						<li> Không có sự khác biệt nào giữa hai phần mở rộng .html và .htm.Trình duyệt và máy chủ sẽ làm việc với cả 2 phần mở rộng như một trang HTML</li>
+						<li>.htm là do kế thừa từ hệ điều hành DOS, khi phần mở rộng bị giới hạn là 3 kí tự.</li>
+						<li>.html là do kế thừa từ hệ điều hành Unix không bị giới hạn 3 kí tự.</li>
+						<li>Nếu cả 2 file .html và .htm trong cùng 1 thư mục thì khi mở trình duyệt sẽ ưu tiên chạy file .html trước</li>
+						<li>Thiếu thẻ &lthtml&gt và &ltbody&gt có thể dẫn tới việc hiểu sai cấu trúc website trong các phần mềm đọc DOM/XML.Ngoài ra sẽ gây lỗi trong các trình duyệt cũ.</li>
+					</ul>
+				</div>
+			</div>
+			<!--Đây là câu b-->
+			<div id="cauB" class="question">
+				<div class="ques">
+					<li><h4>Có những cách nào để hiển thị các thẻ HTML để hiển thị ra bên ngoài mà không bị HTML xử lý. <i>Ví dụ hiển thị các nội dụng như &lt/br&gt &ltdiv&gt &lth1&gtHello HTML&lt/h1&gt&lt/div&gt </i> </h4></li>
+				</div>
+				<div class="ans">
+					<ul>
+						<li><xmp>tag <xmp></xmp></li>
+						<li> & lt & gt </li>
+					</ul>
+				</div>
+			</div>
+			<!--Đây là câu c-->
+			<div id="cauC" class="question">
+				<div class="ques">
+					<li><h4>Làm thế nào để tạo vùng chọn để định dạng trong CSS cho một tag,một class,một ID?</h4></li>
+				</div>
+				<div class="ans">
+					<ul>
+						<li>#ID : Mỗi tag có một ID dùng để định danh và mỗi ID là duy nhất đại diện cho một tag.</li>
+						<li>.Class : đại diện cho một nhóm vùng chọn có cùng thuộc tính với nhau.</li>
+					</ul>
+				</div>
+			</div>
+			<!--Đây là câu d-->
+			<div id="cauD" class="question">
+				<div class="ques">
+					<li><h4>Tìm và cho ví dụ về các thẻ có các chức năng sau:<br />
+				+Gạch chân.kẻ đường ngang,chỉ số trên,chỉ số dưới<br />
+				+Tạo bảng (có ghép dòng,ghép cột).<br />
+				+4 hiệu ứng chữ chạy từ 4 hướng (<i>trái,phải,trên,dưới</i>).<br />
+				</h4></li>
+				</div>
+				<div class="ans">
+					<div id="uss">
+						<ul>
+							<li>Thẻ &ltu&gt <u>Gạch chân</u></li>
+							<li>Thẻ &ltsup&gt <sup>chỉ số trên</sup></li>
+							<li>Thẻ &ltsub&gt <sub>chỉ số dưới</sub></li>
+						</ul>
+					</div>
+					<div id="tb">
+						<div id="tb1">
+							<table>
+								<tr>
+									<th>Name</th>
+									<th>MSSV</th>
+								</tr>
+								<tr>
+									<td>Hải Bùi</td>
+									<td>14520236</td>
+								</tr>
+							</table>
+						</div>
+						<div id="tb2">
+							<table>
+								<tr>
+									<th>ID</th>
+									<th>Name</th>
+									<th>Year's Birth</th>
+								</tr>
+								<tr>
+									<td>01</td>
+									<td>Hải Bùi</td>
+									<td>1996</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div id="marq">
+						<div id="marq1" class="mrq">
+							<marquee padding = 0px text-align="center">Welcom to my page</marquee>	
+						</div>
+						<div id="marq2" class="mrq">
+							<marquee direction="right" >Welcom to my page</marquee>	
+						</div>
+						<div id="marq3" class="mrq">
+							<marquee direction="up" height="120" width="250">Welcom to my page</marquee>	
+						</div>
+						<div id="marq4" class="mrq">
+							<marquee direction="down" height="120" width="250">Welcom to my page</marquee>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</ol>
+	</div>
+</body>
+</html>

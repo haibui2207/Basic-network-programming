@@ -1,0 +1,118 @@
+
+
+/**************CONTAINER**************/
+#container{		
+	max-width: 1400px;
+	background-image: url("picture/background.jpg");
+	overflow:hidden;
+	display: flex;
+	flex-direction: column;	
+	justify-content: center;
+}
+/**************MAIN**************/
+#main{
+	max-width: 900px;	
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	margin: auto;
+}
+/**************MAIN-LEFT**************/
+.main-left-hidden {
+  display: block;
+}
+@media(max-width: 843px)
+{
+	.main-left-hidden{
+		display: none !important;
+	}
+}
+
+/**************MAIN-RIGHT**************/
+#main-right{
+	max-width: 80%;
+	min-width: 275px; 
+	display: flex; 
+	justify-content: center;
+	flex-direction: column;
+	margin: auto;
+}
+@font-face{
+	font-family: 'Lobster 1.4';
+	src:url("Lobster 1.4/Lobster 1.4.otf");
+}
+.form-title{
+    font-family: 'Lobster 1.4';
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    margin-top: 5%;      
+}
+#title{
+  	text-align:center;
+}
+#login-facebook{
+	text-align: center;
+}
+.login-or {
+    font-size: 20px;
+    color: #aaa;
+  	text-align:center;
+}
+.login-input{
+	display: flex;
+  	flex-direction: column;
+}
+.login-input input{
+	width: 80%;
+	margin: 8px auto;
+  	padding:auto;
+	background: 0;
+}
+.login-input input[type="submit"]
+{
+	color: #333333;
+    width: 70%;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 8px auto;      
+    border-radius: 5px;
+}
+.form-control {
+	border-radius: 10px;
+}
+
+#sym{	
+	display: flex;	
+}
+#sym img{
+	max-width: 40%;
+	margin: auto;
+}
+
+/**************FOOTER**************/
+#footer-container{
+	display: flex;	
+	margin:5px auto 10px auto;
+}
+@media(max-width: 680px)
+{
+	#footer-container{
+		flex-direction: column;		
+	}
+}
+.sub-footer{
+	margin: auto;
+}
+#footer-menu ul > li {  
+    display:inline-block;
+}
+#footer-menu ul > li > a {
+	color: #003569;
+	padding-right: 15px;
+	text-decoration:none;
+}
+#footer-cp >span{
+	color: #999;
+}

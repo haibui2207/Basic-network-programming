@@ -1,0 +1,398 @@
+/*Format page*/
+body{
+	background-color: #D4F5D3;
+	padding:0px;
+	margin: 0px;
+	font-family: Arial;
+}
+div{
+	display: block;
+}
+#container{
+	overflow: auto;
+	position: relative;
+}
+#header{
+	width: 100%;
+	height: 150px;
+	/*background-color: red;*/	
+}
+#left{
+	width: 20%;
+	height: 1250px;
+	/*background-color: yellow;*/
+	float: left;
+}
+#right{
+	width: 20%;
+	height:1250px;
+	/*background-color: orange;*/
+	float: right;	
+}	
+#center{
+	width: 60%;
+	height: 1250px;	
+	float: left;
+	overflow: auto;
+}
+
+#bottom{
+	width: 100%;
+	height: 100px;
+	/*background-color: pink;*/
+	float: left;
+}
+
+
+/*Format CV*/
+#info{
+	width: 30%;
+	height: 100%;
+	float: left;
+	background-color: #3950FA;
+	position: relative;
+}
+#content{
+	width: 70%;
+	height: 100%;
+	float: right;
+	background-color: white;
+	overflow: hidden;
+}
+
+/*Format div info*/
+#pic{
+	width: 100%;
+	height: 280px;
+	background-color: #0018CF;
+	overflow: hidden;	
+}
+#pic-avatar{	
+	margin: 20px;	
+	width: 80%;
+	height: 200px;
+	background-image: url("images.jpg"); 
+	border-radius: 100%;
+}
+#pic-name{
+	padding-bottom: 10px;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}
+#pic-name>h2{
+	color: white;
+}
+#contact{	
+	padding-top: 5px;	
+	width: 100%;
+	height: 130px;		
+}
+.contact-cnt{	
+	width: 100%;
+	height: 40px;	
+	overflow: hidden;
+}
+.contact-icn{
+	margin: 5px;		
+	width: 30px;
+	height: 30px;
+	background-color: #5063F2;
+	border-radius: 50%;
+	float: left;
+}
+.contact-icn>i{
+	color: blue;
+	margin: 8px;
+}
+.contact-val{	
+	margin: 5px 15px 5px 5px;
+	padding-top: 5px;
+	width: 180px;
+	height: 30px;	
+	float: right;	
+}
+.contact-val>p{
+	padding: 0px;
+	margin: 5px;
+	color: white;		
+}
+.contact-val>a{	
+	text-decoration: none;
+	margin: 5px;
+	color: white;		
+}
+#aboutme{
+	width: 100%;
+	height: 240px;	
+	overflow: hidden;
+}
+#aboutme-header{	
+	margin-left: 7px;	
+	width: 100%;
+	height: 40px;	 
+}
+#aboutme-header>h2{	
+	margin: 0px;
+	padding: 7px 0px 7px 0px;
+	color: white;
+	text-align: left;	
+}
+#aboutme-content{
+	width: 100%;
+	height: 200px;	
+}
+#aboutme-content>p{
+	font-size: 14px;
+	color: white;
+	padding: 5px;
+	margin: 0px;
+}
+#skill{
+	width: 100%;
+	height: 310px;
+	overflow: hidden;
+}
+#skill-header{
+	margin-left: 7px;
+	width: 100%;
+	height: 40px;
+}	
+#skill-header>h2{	
+	margin: 0px;
+	padding: 7px 0px 7px 0px;
+	color: white;
+	text-align: left;	
+} 
+#skill-list{
+	width: 100%;
+	height: 270px;	
+}
+#skill-list .sk{
+	margin-left: 10px;
+	width: 92%;
+	height: 45px;	
+}
+
+.skill-sk-name>h5{	
+	color: white;
+	padding: 2px;
+	margin: 0px;	
+}
+.skill-sk-chart{
+	margin-top: 3px;
+	width: 100%;
+	height: 10px;
+	background-color: white;
+	position: relative;
+}
+.skill-sk-chart-child{	
+	height: 10px;
+	background: blue;
+	position: absolute;
+}
+#skill-sk-chart-PS{
+	width: 70%;
+}
+#skill-sk-chart-SC{
+	width: 40%;
+}
+#skill-sk-chart-CI{
+	width: 60%;
+}
+#skill-sk-chart-Tw{
+	width: 70%;
+}
+#skill-sk-chart-Adap{
+	width: 70%;
+}
+#skill-sk-chart-CO{
+	width: 50%;
+}
+#workingskill{	
+	width: 100%;	
+	height: 250px;
+}
+#workingskill-header{	
+	margin-left: 7px;	
+	width: 100%;
+	height: 40px;	 
+}
+#workingskill-header>h2{	
+	margin: 0px;
+	padding: 7px 0px 7px 0px;
+	color: white;
+	text-align: left;	
+}
+#workingskill-list{
+	margin: 10px;
+}
+#workingskill-list>ul{
+	color: white;
+	list-style-type: circle;
+	margin:0px;
+	padding-left: 14px;
+}
+#workingskill-list ul>li{
+	padding-top:7px;
+}
+
+
+/*Format div content*/
+#education{	
+	margin: 20px 0px 0px 20px;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+#education-header{
+	width: 100%;
+	height: 60px;
+	overflow: hidden;
+}
+#education-header-icon>i{
+	margin: 15px 0px 0px 11px;	
+}
+#workexperience{
+	margin: 20px 0px 0px 20px;
+	width: 100%;
+	height: 300px;	
+	overflow: hidden;
+}
+#workexperience-header{
+	width: 100%;
+	height: 60px;
+	overflow: hidden;
+}
+#workexperience-header-icon>i{
+	margin: 15px 0px 0px 15px;
+}
+#achievement{
+	margin: 20px 0px 0px 20px;
+	width: 100%;
+	height: 300px;	
+	overflow: hidden;	
+}
+#achievement-header{
+	width: 100%;
+	height: 60px;
+	overflow: hidden;	
+}
+#achievement-header-icon>i{
+	margin: 15px 0px 0px 15px;
+}
+.content-header-icon{
+	width: 60px;
+	height: 100%;
+	font-size: 30px;
+	border-radius: 100%;
+	color: white;
+	background: blue;
+	float: left;
+}
+.content-header-text{	
+	margin-right: 40px;
+	width: 80%;
+	height: 100%;	
+	float: right;
+}
+.content-header-text>h2{
+	margin: 10px 0px;
+}
+.education-content-school{	
+	width: 100%;
+	height: 80px;	
+	overflow: hidden;
+}
+
+
+/*Format div Education*/
+.education-content-header{
+	width: 50%;
+	height: 30px;
+	float: left;
+}
+.education-content-header>h3{
+	padding: 5px;
+	margin: 0px;
+}
+.education-content-date{
+	width: 50%;
+	height: 30px;
+	text-align: right;
+	float:right;
+}
+.education-content-date>h3{
+	padding: 5px 35px 5px 5px;
+	margin: 0px;
+}
+.education-content-cnt{
+	width: 100%;
+	height: 50px;
+	float: left;	
+}
+.education-content-cnt>p{
+	padding: 0px;
+	margin: 0px;
+}
+
+/*Format div work experience*/
+.workexperience-content-header{
+	width: 50%;
+	height: 30px;
+	float: left;
+}
+.workexperience-content-header>h3{
+	padding: 5px;
+	margin: 0px;
+}
+.workexperience-content-date{
+	width: 50%;
+	height: 30px;
+	text-align: right;
+	float:right;
+}
+.workexperience-content-date>h3{
+	padding: 5px 35px 5px 5px;
+	margin: 0px;
+}
+.workexperience-content-cnt{
+	width: 100%;
+	height: 50px;
+	float: left;	
+}
+.workexperience-content-cnt>p{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/*Format div Achievement*/
+.achievement-content-header{
+	width: 50%;
+	height: 30px;
+	float: left;
+}
+.achievement-content-header>h3{
+	padding: 5px;
+	margin: 0px;
+}
+.achievement-content-date{
+	width: 50%;
+	height: 30px;
+	text-align: right;
+	float:right;
+}
+.achievement-content-date>h3{
+	padding: 5px 35px 5px 5px;
+	margin: 0px;
+}
+.achievement-content-cnt{
+	width: 100%;
+	height: 50px;
+	float: left;	
+}
+.achievement-content-cnt>p{
+	padding: 0px;
+	margin: 0px;
+}

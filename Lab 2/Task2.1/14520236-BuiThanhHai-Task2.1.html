@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>14520236-BuiThanhHai-Task2.1</title>
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">   
+    <link rel="stylesheet" type="text/css" href="lab2.1.css">
+  </head>
+<body>
+  <div id="container">
+    <div id="header">
+      <nav id="header-navbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <img src="av.jpg" id="avatar" usemap="#map-av" alt="avatar">
+            <map name="map-av">
+              <area shape="rect" coords="0,0,30,30" href="14520236-BuiThanhHai-Task2.1.html" alt="avatar">
+            </map>
+            <a class="navbar-brand hidden-xs" href="https://www.facebook.com/Boss.Stony" target="_blank">14520236-Bùi Thanh Hải</a>
+          </div><!--navbar-header-->
+          <div id="navbar" class="collapse navbar-collapse">          
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#cau2">Câu 1</a></li>
+              <li><a href="#cau2">Câu 2</a></li>
+              <li><a href="#cau3">Câu 3</a></li>
+              <li><a href="#cau4">Câu 4</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search...">
+              </div><!--/form-group-->
+            </form>
+          </div><!--/navbar-collapse collapse-->
+        </div><!--/container-fluid-->
+      </nav><!--/nav-->
+    </div><!--/header-->
+
+    <div id="main">
+      <div id="main-margin" class="collapse-fluid">
+        <div class="row">
+          <div id="main-sidebar" class="col-sm-3 col-md-2 sidebar">
+            <ul class="nav nav-sidebar">             
+              <li><a href="#cau1">Câu 1</a></li>
+              <li><a href="#cau2">Câu 2</a></li>
+              <li><a href="#cau3">Câu 3</a></li>
+              <li><a href="#cau4">Câu 4</a></li>               
+            </ul>        
+          </div><!--/col-sm-3 col-md-2 sidebar-->
+
+          <div id="main-content" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 content">
+            <div id="cau1" class="main-content-question">
+              <div id="cau1-header" class="main-content-header">
+                <h1 class="page-header">Câu 1</h1>  
+              </div><!--/cau1-header-->
+              <div id="cau1-content" class="main-content-cnt">
+                 <div class="panel panel-default">
+                   <div class="panel-heading">
+                    <h2>Những cách tích hợp bootstrap vào trang HTML?</h2>
+                  </div><!--/panel-heading-->
+                  <div class="panel-body">
+                    <h3>Nhúng liên kết từ bootstrap</h3>
+                    <p class="text-info">Bootstrap có cung cấp sẵn cho chúng ta các liên kết để nhúng trực tiếp vào website nhưng chúng ta hạn chế sử dụng nó vì khi đó website phải load liên kết bên ngoài, dẫn đến việc website bị chậm.</p>
+                    <div class="container-fluid">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td id="number">
+                              <div>1</div>
+                              <div>2</div>
+                              <div>3</div>
+                              <div>4</div>
+                              <div>5</div>
+                              <div>6</div>  
+                              <div>7</div>        
+                              <div>8</div>                  
+                              <div>9</div>
+                              <div>10</div>
+                            </td>                          
+                            <td id="code">
+                              <div><code>&lt!DOCTYPE html&gt</code></div>
+                              <div><code>&lthtml&gt</code></div>
+                              <div class="code-tag1"><code>&lthead&gt</code></div>
+                              <div class="code-tag2"><code>&ltmeta charset="utf-8"&gt</code></div>
+                              <div class="code-tag2"><code>&ltmeta http-equiv="X-UA-Compatible" content="IE=edge"&gt</code></div>
+                              <div class="code-tag2"><code>&ltmeta name="viewport" content="width=device-width, initial-scale=1"&gt</code></div>
+                              <div class="code-tag2"><code>&lttitle&gtBootstrap 101 Template&lt/title&gt</code></div>
+                              <div class="code-tag2"><code>&ltlink rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"&gt</code></div>
+                              <div class="code-tag1"><code>&lt/head&gt</code></div>
+                              <div><code>&lt/html&gt</code></div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div><!--container-fluid-->
+                  </div><!--/panel panel-body-->  
+
+                  <div class="panel-body">
+                    <h3>Nhúng bằng cách tự host</h3>
+                    <p class="text-info">Download <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a> sau đó chèn đường dẫn vào trang html như bên dưới.</p>
+                    <div class="container-fluid">
+                      <table>
+                         <tbody>
+                           <tr>
+                            <td id="number">
+                              <div>1</div>
+                              <div>2</div>
+                              <div>3</div>
+                              <div>4</div>
+                              <div>5</div>
+                              <div>6</div>  
+                              <div>7</div> 
+                              <div>8</div>
+                              <div>9</div>
+                              <div>10</div>
+                              <div>11</div>
+                              <div>12</div>
+                              <div>13</div>  
+                              <div>14</div>     
+                              <div>15</div>                     
+                            </td>                          
+                            <td id="code">
+                              <div><code>&lt!DOCTYPE html&gt</code></div>
+                              <div><code>&lthtml&gt</code></div>
+                              <div class="code-tag1"><code>&lthead&gt</code></div>
+                              <div class="code-tag2"><code>&ltmeta charset="utf-8"&gt</code></div>
+                              <div class="code-tag2"><code>&ltmeta http-equiv="X-UA-Compatible" content="IE=edge"&gt</code></div>
+                              <div class="code-tag2"><code>&ltmeta name="viewport" content="width=device-width, initial-scale=1"&gt</code></div>
+                              <div class="code-tag2"><code>&lttitle&gtBootstrap 101 Template&lt/title&gt</code></div>
+                              <div class="code-tag2"><code>&ltlink rel="stylesheet" href="css/bootstrap.min.css"&gt</code></div>
+                              <div class="code-tag1"><code>&lt/head&gt</code></div>
+                              <div class="code-tag1"><code>&ltbody&gt</code></div>
+                              <div class="code-tag2"><code>&lt!--Write something here--&gt</code></div>
+                              <div class="code-tag2"><code>&ltscript src="js/jquery.min.js"&gt&lt/script&gt</code></div>
+                              <div class="code-tag2"><code>&ltscript src="js/bootstrap.min.js"&gt&lt/script&gt</code></div>
+                              <div class="code-tag1"><code>&lt/body&gt</code></div>
+                              <div><code>&lt/html&gt</code></div>
+                            </td>
+                          </tr>
+                        </tbody>
+                       </table>
+                    </div><!--/contain-fluid-->
+                  </div><!--/panel panel-body-->                
+                </div><!--/panel panel-default--> 
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h2>Trong Bootstrap biên dịch có những gì?</h2>
+                  </div><!--/panel-heading-->
+                  <div class="panel panel-body">
+                    <p class="text-info">Khi tải về, hãy giải nén thư mục và bạn sẽ nhìn thấy cấu trúc của Bootstrap (đã biên dịch) tương tự như thế này:</p>
+                    <img src="bs.png">
+                    <p class="text-info">Đây là dạng cơ bản nhất của Bootstrap, gồm các tập tin đã được biên dịch từ trước để có thể sử dụng một cách nhanh chóng trong tất cả các dự án web. Bao gồm các CSS và JS đã được biên dịch <code>(bootstrap.*)</code>,cũng như CSS và JS đã được biên dịch và nén lại <code>(bootstrap.min.*)</code>. Font Glyphicons cũng được tích hợp sẵn trong dạng này của Bootstrap.</p>
+                  </div><!--/panel panel-body-->
+                </div><!--/panel panel-default-->            
+              </div><!--/cau1-content-->
+            </div><!--/cau1-->    
+            
+            <div id="cau2" class="main-content-question">
+              <div id="cau2-header" class="main-content-header">
+                <h1 class="page-header">Câu 2</h1>  
+              </div><!--/cau2-header-->
+              <div id="cau2-content" class="main-content-cnt">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h2>Responsive là gì?</h2>
+                  </div><!--/panel-heading-->
+                  <div class="panel-body">
+                    <p class="text-info">Responsive là một tiện ích của Bootstrap để phát triển các ứng dụng thân thiện với các loại thiết bị khác nhau,hiển thị nội dung phù hợp với kích thước khung nhìn của từng thiết bị.</p>
+                  </div><!--/panel-body-->
+                </div><!--/panel panel-default-->
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h2>Làm thế nào nếu muốn vô hiệu hóa tính năng Responsive khi đang sử dụng Bootstrap?</h2>
+                  </div><!--/panel-heading-->
+                  <div class="panel-body">
+                    <ol>
+                      <li class="text-info"><p>Bỏ thẻ <code>&ltmeta name="viewport" content="width=device-width, initial-scale=1"&gt</code> trong tag <code>&lthead&gt</code></p></li>
+                      <li class="text-info"><p>Ghi đè thuộc tính width trên <code>.container</code> (!important)</p></li>
+                      <li class="text-info"><p>Nếu sử dụng thanh điều hướng thì vô hiệu hóa chức năng thu gọn và mở rộng.</p></li>                  
+                    </ol>                  
+                  </div><!--/panel-body-->
+                </div><!--/panel panel-default-->
+              </div><!--/cau2-content-->
+            </div><!--/cau2-->
+
+            <div id="cau3" class="main-content-question">
+              <div id="cau3-header" class="main-content-header">
+                <h1 class="page-header">Câu 3</h1>
+              </div><!--/cau3-header-->
+              <div id="cau3-content" class="main-content-cnt">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h2>Hệ thống lưới (Grid System) là gì? </h2>
+                  </div><!--/panel-heading-->
+                  <div class="panel-body">
+                    <p class="text-info">Bootstrap chứa một hệ thống lưới responsive, tương thích với hầu hết các thiết bị di động. Hệ thống này được chia thành 12 cột tương thích với mọi kích thước khung nhìn của các thiết bị. Nó bao gồm các class được định nghĩa trước để thuận tiện cho việc xây dựng bố cục, cùng với đó một bộ các mixin để tạo ra nhiều bố cục theo ngữ nghĩa.</p>                  
+                  </div><!--/panel-body-->
+                </div><!--/panel panel-default-->
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h2>So sánh hoạt động của hệ thống lưới này trên các thiết bị có kích thước màn hình khác nhau như Phones(&lt768px), Tablet(≥768px) ,Desktop(≥992px và ≥1200px).</h2>
+                  </div><!--/panel-heading-->
+                  <div class="panel-body">
+                    <p class="text-info">Hệ thống lưới của Bootstrap hoạt động như thế nào trên các thiết bị trong bảng sau.</p>
+                    <img src="responsive.png">
+                  </div><!--/panel-body-->
+                </div><!--/panel panel-default-->
+              </div><!--/cau3-content-->
+            </div><!--/cau3-->
+
+            <div id="cau4" class="main-content-question">
+              <div id="cau4-header" class="main-content-header">
+                <h1 class="page-header">Câu 4</h1>  
+              </div><!--/cau4-header-->
+              <div id="cau4-content" class="main-content-cnt">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h2>Tìm và cho ví dụ về cách thực hiện các yêu cầu sau:</h2>
+                  </div><!--/panel-heading-->
+                  <div class="panel-body">
+                    <h3>Chèn 1 button 1 biểu tượng trong button đó.</h3>
+                    <a href="14520236-BuiThanhHai-Task2.1.html" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-home"></span></a>
+                  </div><!--/panel-body-->
+                  <div class="panel-body">
+                    <h3>Chèn 1 thanh Progress bar (tiến trình) tương tự CV ở Task1.2</h3>
+                    <div class="progress">
+                      <div id="progress" class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">30%</div><!--/progress-bar-->
+                      </div><!--/progress-->
+                  </div><!--/panel-body-->
+                  <div class="panel-body">
+                    <h3>Chèn các loại cảnh báo(Alert) trong trang như Success , Info , Danger , Warning.</h3>
+                    <div class="alert alert-success" role="alert">Alert Success</div>
+                    <div class="alert alert-info" role="alert">Alert Info</div>
+                    <div class="alert alert-warning" role="alert">Alert Warning</div>
+                    <div class="alert alert-danger" role="alert">Alert Danger</div>
+                  </div><!--/panel-body-->
+                  <div class="panel-body">
+                    <h3>Chèn 1 menu(Navigation) trong dó có 1 mục có menu con xổ xuống.</h3>
+                    <nav class="navbar navbar-inverse">
+                      <div class="container-fluid">
+                        <div class="navbar-header">
+                          <a class="navbar-brand" href="#">Hello</a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                          <li><a href="#">Home</a></li>
+                          <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">Page 1-1</a></li>
+                              <li><a href="#">Page 1-2</a></li>
+                              <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#">Page 2</a></li>
+                          <li><a href="#">Page 3</a></li>
+                        </ul>
+                      </div>
+                    </nav>
+                  </div><!--/panel-body-->
+                </div><!--/panel panel-default-->
+              </div><!--/cau4-content-->
+            </div><!--/cau4-->    
+
+         </div><!--/col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 content-->  
+        </div><!--row/-->
+      </div><!--/collapse fluid-->
+    </div><!--/main-->
+
+
+    <div id="footer"></div><!--/footer-->
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+  </div><!--/container-->
+</body>
+</html>

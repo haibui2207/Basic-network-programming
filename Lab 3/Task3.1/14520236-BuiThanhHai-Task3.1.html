@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>14520236-BuiThanhHai-Task3.1</title>
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">   
+    <link rel="stylesheet" type="text/css" href="lab3.1.css">   
+  </head>
+<body onload="switchImg()">
+  <div id="container">   
+    <div id="header">
+      <nav id="header-navbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <img src="pictures/av.jpg" id="avatar" usemap="#map-av" alt="avatar">
+            <map name="map-av">
+              <area shape="rect" coords="0,0,30,30" href="14520236-BuiThanhHai-Task3.1.html" alt="avatar">
+            </map>
+            <a class="navbar-brand hidden-xs" href="https://www.facebook.com/Boss.Stony" target="_blank">14520236-Bùi Thanh Hải</a>
+          </div><!--navbar-header-->
+          <div id="navbar" class="collapse navbar-collapse">          
+            <ul class="nav navbar-nav navbar-right">
+              <li><a data-toggle="collapse" data-parent="#accordion" href="#cau1-collapse">Câu 1</a></li>
+              <li><a data-toggle="collapse" data-parent="#accordion" href="#cau2-collapse">Câu 2</a></li>
+              <li><a data-toggle="collapse" data-parent="#accordion" href="#cau3-collapse">Câu 3</a></li>
+              <li><a data-toggle="collapse" data-parent="#accordion" href="#cau4-collapse">Câu 4</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search...">
+              </div><!--/form-group-->
+            </form>
+          </div><!--/navbar-collapse collapse-->
+        </div><!--/container-fluid-->
+      </nav><!--/nav-->
+    </div><!--/header-->
+
+    <div id="main">
+      <div id="main-margin" class="collapse-fluid">
+        <div class="row">
+          <div id="main-sidebar" class="col-sm-3 col-md-2 sidebar">
+            <ul class="nav nav-sidebar">             
+              <li><a data-toggle="collapse" data-parent="#accordion" href="#cau1-collapse">Câu 1</a></li>
+              <li><a data-toggle="collapse" data-parent="#accordion" href="#cau2-collapse">Câu 2</a></li>
+              <li><a data-toggle="collapse" data-parent="#accordion" href="#cau3-collapse"">Câu 3</a></li>
+              <li><a data-toggle="collapse" data-parent="#accordion" href="#cau4-collapse">Câu 4</a></li>               
+            </ul>        
+          </div><!--/col-sm-3 col-md-2 sidebar-->
+
+          <div id="main-content" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 content ">
+            <div id="accordion" class="panel-group main-content-question">   
+
+              <div id="cau1" class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#cau1-collapse">
+                      <u>Câu 1:</u> Những vị trí nào có thể đặt Javscript trong file HTML và đặt theo những cách nào? Nên đặt Javascript tại vị trí nào để có hiệu suất tốt nhất? Cho ví dụ minh họa.
+                    </a>
+                  </h4>
+                </div>
+                <div id="cau1-collapse" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul>
+                      <li>
+                        <h3>Đầu tiên JavaScript phải được đặt trong thẻ <code>&ltscript&gt&lt/script&gt</code></h3>                        
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td class="number">
+                                <div>1</div>
+                                <div>2</div>
+                                <div>3</div>                             
+                              </td>                          
+                              <td class="code">               
+                                <div><code>&ltscript&gt</code></div>                         
+                                <div class="code-tag1"><code>document.getElementById("demo").innerHTML = "My First JavaScript";</code></div>              
+                                <div><code>&lt/script&gt</code></div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>                     
+                      </li>
+
+                      <li>
+                        <h3>JavaScript có thể được đặt trong thẻ <code>&lthead&gt&lt/head&gt</code> hoặc thẻ <code>&ltbody&gt&lt/body&gt</code>  hoặc cả hai.</h3>
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td class="number">
+                                <div>1</div>
+                                <div>2</div>
+                                <div>3</div>
+                                <div>4</div>
+                                <div>5</div>
+                                <div>6</div>  
+                                <div>7</div>        
+                                <div>8</div>                  
+                                <div>9</div>
+                                <div>10</div>
+                                <div>11</div>
+                                <div>12</div>
+                                <div>13</div>
+                                <div>14</div>
+                                <div>15</div>
+                                <div>16</div>  
+                                <div>17</div>        
+                                <div>18</div>                  
+                                <div>19</div>
+                                <div>20</div>
+                              </td>                          
+                              <td class="code">
+                                <div><code>&lt!DOCTYPE html&gt</code></div>
+                                <div><code>&lthtml&gt</code></div>
+                                <div><code>&lthead&gt</code></div>
+                                <div class="code-tag1"><code>&ltscript&gt</code></div>
+                                <div class="code-tag2"><code>function myFunction1() {</code></div>
+                                <div class="code-tag3"><code>document.getElementById("demo1").innerHTML = "Paragraph changed.";</code></div>
+                                <div class="code-tag2"><code>}</code></div>
+                                <div class="code-tag1"><code>&lt/script&gt</code></div>  
+                                <div><code>&lt/head&gt</code></div>
+                                <br>
+                                <div><code>&ltbody&gt</code></div>
+                                <div class="code-tag1"><code>&ltp id="demo1"&gt A Paragraph &lt/p&gt</code></div>
+                                <div class="code-tag1"><code>&ltp id="demo2"&gt Hello &lt/p&gt</code></div>
+                                <div class="code-tag1"><code>&ltscript&gt</code></div>
+                                <div class="code-tag2"><code>function myFunction2() {</code></div>
+                                <div class="code-tag3"><code>document.getElementById("demo2").innerHTML = "Hello World";</code></div>
+                                <div class="code-tag2"><code>}</code></div>
+                                <div class="code-tag1"><code>&lt/script&gt</code></div>
+                                <div><code>&lt/body&gt</code></div>
+                                <div><code>&lt/html&gt</code></div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </li>
+
+                      <li>
+                        <h3>Có thể được đặt trong file .js và sử dụng <code>src</code> trong thẻ <code>script</code> để gọi ra.</h3>                       
+                        <table>
+                            <tbody>
+                              <tr>
+                                <td class="number">
+                                  <div>1</div>
+                                  <div>2</div>
+                                  <div>3</div>                             
+                                </td>                          
+                                <td class="code">               
+                                  <div><code>&lthtml&gt</code></div>                         
+                                  <div><code>&ltbody&gt</code></div>                              
+                                  <div class="code-tag1"><code>&ltscript src="name.js"&gt&ltscript&gt</code></div>          
+                                  <div><code>&lt/body&gt</code></div>
+                                  <div><code>&lt/html&gt</code></div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table> 
+                        </li>
+
+                        <li>
+                        <h3>Nên viết Javascript vào 1 file .js và sử dụng <code>src</code> trong thẻ <code>script</code> để gọi ra trong <b>cuối</b> phần <code>&ltbody&gt</code> để có hiệu suất tốt nhất.Sỡ dĩ làm như thế để khi trang HTML được load lên thì nội dung sẽ được hiển thị trước và cuối cùng mới tới Javascript. Nếu gọi file .js trong phần đầu <code>&ltbody&gt</code> file HTML sẽ gọi file Javascript trước. Nếu file Javascript quá lớn sẽ làm chậm quá trình load nội dung , giảm hiệu suất trang web.</h3>                       
+                        
+                        </li>
+                    </ul>    
+                  </div>
+                </div>
+              </div><!--/cau1-->
+
+              <div id="cau2" class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#cau2-collapse">
+                      <u>Câu 2:</u> Trong Javascript có những kiểu dữ liệu nào ? Làm thế nào để tạo một biến để lưu giá trị tương ứng với những kiểu dữ liệu đó.
+                    </a>
+                  </h4>
+                </div>
+                <div id="cau2-collapse" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul>
+                      <li>
+                        <h3>Kiểu dữ liệu trong Javascript.</i></b></h3>
+                        <p class="text-info">Javascript có các kiểu dữ liệu như sau:</p>
+                        <ul>
+                          <li><p class="text-info">Kiểu boolean</p></li>
+                          <li><p class="text-info">Kiểu của null</p></li>
+                          <li><p class="text-info">Kiểu của undefined</p></li>
+                          <li><p class="text-info">Kiểu số</p></li>
+                          <li><p class="text-info">Kiểu Symbol (mới trong ECMAScript 6)</p></li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <h3>Để khai báo một biến ta sử dụng từ khóa <code>var &lttên biến&gt</code> ví dụ: </h3>           
+                        <p class="text-info">var username</p>  
+                      </li>
+                      <li>
+                        <h3>Tuy nhiên không phải muốn đặt tên biến gì cũng được mà phải tuân theo quy tắc sau đây:</h3>
+                        <ul>
+                          <li><p class="text-info">Tên biến phải là các chữ không dấu viết  hoa hoặc viết thường, các chữ số từ 0-9 và dấu gạch dưới (_).</p></li>
+                          <li><p class="text-info">Tên biến bắt đầu phải là chữ hoặc dấu gạch dưới (_), nếu bắt đầu bằng số là sai </p></li>
+                          <li><p class="text-info">Tên biến có thể đặt dài hay ngắn tùy vào lập trình viên.</p></li>
+                          <table>
+                            <tbody>
+                              <tr>
+                                <td class="number">
+                                  <div>1</div>
+                                  <div>2</div>
+                                  <div>3</div>
+                                  <div>4</div>
+                                  <div>5</div>
+                                  <div>6</div>  
+                                  <div>7</div>        
+                                  <div>8</div>                  
+                                  <div>9</div>
+                                  <div>10</div>
+                                  <div>11</div>
+                                  <div>12</div>
+                                  <div>13</div>
+                                  <div>14</div>                                  
+                                </td>                          
+                                <td class="code">
+                                  <div>&nbsp      // Đúng</div>
+                                  <div><code>&nbsp var username;</code></div>
+                                  <br/>
+                                  <div>&nbsp      // Đúng</div>
+                                  <div><code>&nbsp var _username;</code></div>
+                                  <br/>
+                                  <div>&nbsp      // Đúng</div>
+                                  <div><code>&nbsp var username90;</code></div>
+                                  <br/>
+                                  <div>&nbsp     // Đúng</div>
+                                  <div><code>&nbsp var __username;</code></div>  
+                                  <br/> 
+                                  <div>&nbsp     // Sai</div>
+                                  <div><code>&nbsp var 90thehalfheart;</code></div>                    
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <h3>Gán kiểu giá trị cho biến</h3>
+                        <p class="text-info">Để xác định biến có kiểu dữ liệu là gì thì ta dựa vào giá trị mà nó đang có, có nghĩa khi bạn gán một con số không có dấu chấm động thì nó sẽ là kiểu INT, nếu gán một chuỗi thì là kiểu String.</p>
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td class="number">
+                                <div>1</div>
+                                <div>2</div>
+                                <div>3</div>
+                                <div>4</div>
+                                <div>5</div>
+                                <div>6</div>  
+                                <div>7</div>        
+                                <div>8</div>                                                      
+                              </td>                          
+                              <td class="code">
+                                <div>&nbsp // Biến website đag kiểu String</div>
+                                <div><code>&nbsp var website = 'thehalfehart';</code></div>
+                                <br/>
+                                <div>&nbsp // Biến website chuyển sang kiểu INT</div>
+                                <div><code>&nbsp website = 12;</code></div>
+                                <br/>
+                                <div>&nbsp // Biến website chuyển sang kiểu float</div>
+                                <div><code>&nbsp website = 12.5;</code></div>                   
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div><!--/cau2-->
+
+              <div id="cau3" class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#cau3-collapse">
+                      <u>Câu 3:</u> Làm thế nào để truy xuất(lấy giá trị) 1 thẻ HTML bất kì theo ID, theo Class, theo Name, theo tên thẻ HTML và theo CSS Selector? Cho ví dụ.
+                    </a>
+                  </h4>
+                </div>
+                <div id="cau3-collapse" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul>
+                      <li>
+                        <h3>Truy xuất theo ID</h3>                       
+                        <div class="example">
+                          <h4>var myElement = document.getElementById("intro");</h4>
+                        </div>
+                        <a class="btn btn-primary btn-lg tryit" href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_getelementbyid" target="_blank">Try it yourself</a>
+                      </li>
+
+                      <li>
+                        <h3>Truy xuất theo Class</h3>
+                        <div class="example">
+                          <h4>var x = document.getElementsByClassName("intro");</h4>
+                        </div>
+                        <a class="btn btn-primary btn-lg tryit" href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_getelementsbyclassname" target="_blank">Try it yourself</a>
+                      </li>
+
+                      <li>
+                        <h3>Truy xuất theo TagName</h3>
+                        <div class="example">
+                          <h4>var x = document.getElementsByTagName("p");</h4>
+                        </div>
+                        <a class="btn btn-primary btn-lg tryit" href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_getelementsbytagname2" target="_blank">Try it yourself</a>
+                      </li>
+
+                      <li>
+                        <h3>Truy xuất theo CSS Selector</h3>
+                        <div class="example">
+                          <h4>var x = document.querySelectorAll("p.intro");</h4>
+                        </div>
+                        <a class="btn btn-primary btn-lg tryit" href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_queryselectorall" target="_blank">Try it yourself</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div><!--/cau3-->
+
+              <div id="cau4" class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#cau4-collapse">
+                      <u>Câu 4:</u> Sử dụng JavaScript để thực hiện các lệnh sau:
+                    </a>
+                  </h4>
+                </div>
+                <div id="cau4-collapse" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <ul>
+                      <li>
+                        <h3>Viết ghi chú trong Javascript</h3>                      
+                        <ul>
+                          <li>
+                            <p class="text-info">Ghi chú toàn bộ lệnh với Javascript đối với trình duyệt. Kiểu ghi chú này bắt đầu bằng dấu &lt!– và kết thúc bằng //–&gt trong cặp thẻ &ltscript&gt.</p>
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td class="number">
+                                    <div>1</div>
+                                    <div>2</div>
+                                    <div>3</div>
+                                    <div>4</div>
+                                    <div>5</div>                                                  
+                                  </td>                          
+                                  <td class="code">
+                                    <div><code>&ltscript type="text/javascript"&gt</code></div>
+                                    <div><code>&lt!--</code></div>                      
+                                    <div class="code-tag1"><code>document.write("Hello");</code></div>
+                                    <div><code> //--&gt</code></div>                                  
+                                    <div><code>&lt/script&gt</code></div>          
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </li>
+                          <li>
+                            <p class="text-info">Ghi chú 1 dòng code sử dụng // để ghi chú hoặc bỏ qua một dòng lệnh mà bạn không muốn thực hiện:</p>
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td class="number">
+                                    <div>1</div>
+                                    <div>2</div>
+                                    <div>3</div>
+                                    <div>4</div>
+                                    <div>5</div>                                                  
+                                  </td>                          
+                                  <td class="code">
+                                    <div><code>&ltscript type="text/javascript"&gt</code></div>  
+                                    <div class="code-tag1"><code> // document.write("Hello");</code></div>      
+                                    <div><code>&lt/script&gt</code></div>          
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </li>
+                          <li>
+                            <p class="text-info">Ghi chú nhiều dòng lệnh sử dụng ký tự /* và */ để ghi chú nhiều dòng lệnh</p>
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td class="number">
+                                    <div>1</div>
+                                    <div>2</div>
+                                    <div>3</div>
+                                    <div>4</div>
+                                    <div>5</div>  
+                                    <div>6</div>                                               
+                                  </td>                          
+                                  <td class="code">
+                                    <div><code>&ltscript type="text/javascript"&gt</code></div>
+                                    <div class="code-tag1"><code> /*</code></div> 
+                                    <div class="code-tag1"><code>var x;</code></div>                    
+                                    <div class="code-tag1"><code>document.write("Hello");</code></div>
+                                    <div class="code-tag1"><code> */</code></div>                 
+                                    <div><code>&lt/script&gt</code></div>    
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <h3>Hiển thị ngày giờ hiện tại</h3>                        
+                        <button class="button-set" onclick="showDate()">Show Date</button>
+                        <p id="date" class="text-info"></p>      
+                      </li>                  
+
+                      <li>
+                        <h3>Tính tổng 2 số ramdom từ 1->100</h3>
+                        <button class="button-set" onclick="Cong()">Random</button>
+                        <p class="text-info"> Tổng:<span id="number1">x</span> + <span id="number2">y</span> = <span id="number3">z</span></p>      
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div><!--/cau4-->
+
+              
+            </div><!--/accordion-->
+          </div><!--/col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 content-->  
+        </div><!--row/-->
+      </div><!--/collapse fluid-->
+    </div><!--/main-->
+
+
+    <div id="footer"></div><!--/footer-->
+
+
+
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="lab3.1.js"></script>
+  </div><!--/container-->
+</body>
+</html>

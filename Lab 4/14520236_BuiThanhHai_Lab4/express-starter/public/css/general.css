@@ -1,0 +1,19 @@
+.container {
+	background-color: #03807a;
+}
+.jumbotron {
+	margin-top: 110px;	
+}
+.jumbotron h1 {
+	margin-top: -30px;
+	text-align: center;
+	color: #0b878e;
+	font-weight: bold;
+}
+.checkinput {
+	padding-left: 10px;
+	color: #f00;
+}
+#register{
+	margin-top: 15px;
+}
